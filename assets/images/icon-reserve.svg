@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon-reserve" transform="translate(-263 -178)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="22" cy="22" r="22" transform="translate(263 178)" fill="#ffeace"/>
+    <g id="calendar_month_black_24dp" transform="translate(271 186)">
+      <g id="Group_437" data-name="Group 437">
+        <rect id="Rectangle_88" data-name="Rectangle 88" width="28" height="28" fill="none"/>
+      </g>
+      <g id="Group_438" data-name="Group 438" transform="translate(3.504 2.336)">
+        <path id="Path_480" data-name="Path 480" d="M21.687,4.336H20.519V2H18.183V4.336H8.84V2H6.5V4.336H5.336A2.325,2.325,0,0,0,3.012,6.672L3,23.023a2.335,2.335,0,0,0,2.336,2.336H21.687a2.343,2.343,0,0,0,2.336-2.336V6.672A2.343,2.343,0,0,0,21.687,4.336Zm0,18.687H5.336V11.343H21.687ZM10.008,16.015H7.672V13.679h2.336Zm4.672,0H12.343V13.679h2.336Zm4.672,0H17.015V13.679h2.336Zm-9.343,4.672H7.672V18.351h2.336Zm4.672,0H12.343V18.351h2.336Zm4.672,0H17.015V18.351h2.336Z" transform="translate(-3 -2)" fill="#e67b44"/>
+      </g>
+    </g>
+  </g>
+</svg>

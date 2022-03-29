@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon-upload" transform="translate(-158 -178)">
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="22" cy="22" r="22" transform="translate(158 178)" fill="#fffbc5"/>
+    <g id="upload_file_black_24dp" transform="translate(165 185)">
+      <path id="Path_452" data-name="Path 452" d="M0,0H30V30H0Z" fill="none"/>
+      <path id="Path_453" data-name="Path 453" d="M16.615,2H6.523a2.513,2.513,0,0,0-2.51,2.509L4,24.583a2.513,2.513,0,0,0,2.51,2.509H21.661a2.524,2.524,0,0,0,2.523-2.509V9.528Zm5.046,22.583H6.523V4.509h8.831v6.273h6.308ZM9.046,18.322l1.779,1.769,2.006-1.982v5.219h2.523V18.109L17.359,20.1l1.779-1.782L14.1,13.291Z" transform="translate(0.908 0.454)" fill="#f9a01a"/>
+    </g>
+  </g>
+</svg>
