@@ -12133,7 +12133,7 @@ input::placeholder {
   .menu-btn-icon-sm {
     width: 44px;
     margin-bottom: 6px; }
-  .menu-btn:focus {
+  .menu-btn:hover {
     color: #666666;
     -webkit-box-shadow: none;
             box-shadow: none; }
@@ -13887,9 +13887,14 @@ footer {
 
 .info-btn {
   border: 2px solid;
-  font-size: 0.7em;
+  font-size: 0.8em;
   padding: 5px 0;
-  letter-spacing: -1px; }
+  letter-spacing: .5px;
+  /*ipnone5*/ }
+  @media (max-width: 320px) {
+    .info-btn {
+      font-size: 0.7em;
+      letter-spacing: -1px; } }
 
 .info-btn-secondary-color {
   color: #69BE51 !important;
