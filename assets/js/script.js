@@ -30,12 +30,9 @@ $('.js-toggle-menu').find(".js-toggle-button").click(function () {
 	$(".js-accordion-menu").find('button').click(function () {
 		if ($(this).hasClass("active")) {
 			$(this).removeClass("active");
-			$(this).find('span').removeClass('ti-angle-up').addClass('ti-angle-down');
 		} else {
 			$(this).parents(".js-accordion-menu").find('button').removeClass('active');
-			$(this).parents(".js-accordion-menu").find('button').find('span').removeClass('ti-angle-up').addClass('ti-angle-down');
 			$(this).addClass("active");
-			$(this).find('span').removeClass('ti-angle-down').addClass('ti-angle-up');
 		}
 
 	});

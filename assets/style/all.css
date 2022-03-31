@@ -12133,6 +12133,10 @@ input::placeholder {
   .menu-btn-icon-sm {
     width: 44px;
     margin-bottom: 6px; }
+  .menu-btn:focus {
+    color: #666666;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 .toggle-menu {
   display: -webkit-box;
@@ -12431,14 +12435,6 @@ input::placeholder {
   pointer-events: none !important; }
 
 /*-----------------區塊樣式---------------------*/
-.info-box {
-  background: #fff;
-  border-radius: 8px;
-  border: 1px solid #2882E9;
-  border-left: 6px solid #2882E9;
-  border-right: 6px solid #2882E9;
-  padding: 20px; }
-
 .shadow-md {
   -webkit-box-shadow: 0 2px 6px #B8C2C8;
           box-shadow: 0 2px 6px #B8C2C8; }
@@ -13868,6 +13864,71 @@ footer {
     @media (max-width: 768px) {
       .tag-list-img {
         width: 30px; } }
+
+.info-box {
+  position: relative; }
+  .info-box:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 8px 12px;
+    border-color: transparent transparent #69BE51 transparent;
+    top: -8px;
+    left: calc(15% - 12px); }
+  .info-box[data-content="change"]:before {
+    border-color: transparent transparent #2882E9 transparent;
+    left: calc(50% - 12px); }
+  .info-box[data-content="work"]:before {
+    border-color: transparent transparent #F9A71A transparent;
+    left: calc(85% - 12px); }
+
+.info-btn {
+  border: 2px solid;
+  font-size: 0.7em;
+  padding: 5px 0;
+  letter-spacing: -1px; }
+
+.info-btn-secondary-color {
+  color: #69BE51 !important;
+  background: #f6ffee;
+  border-color: #ceefb9; }
+  .info-btn-secondary-color:focus {
+    background: #d5ffb9; }
+
+.info-btn-primary-color {
+  color: #2882E9 !important;
+  background: #EEFCFF;
+  border: 2px solid #D1EFFF;
+  font-size: 0.7em;
+  padding: 5px 0;
+  letter-spacing: -1px; }
+  .info-btn-primary-color:focus {
+    background: #E1F8FE; }
+
+.info-btn-tertiary-color {
+  color: #F9A71A !important;
+  background: #FFF7EE;
+  border: 2px solid #FFEBD1;
+  font-size: 0.7em;
+  padding: 5px 0;
+  letter-spacing: -1px; }
+  .info-btn-tertiary-color:focus {
+    background: #FFEFDC; }
+
+.btn[data-bs-target="#detail"].active {
+  background: #69BE51 !important;
+  color: #fff !important; }
+
+.btn[data-bs-target="#change"].active {
+  background: #2882E9 !important;
+  color: #fff !important; }
+
+.btn[data-bs-target="#work"].active {
+  background: #F9A71A !important;
+  color: #fff !important; }
 
 /*----------------內頁開始-----------------*/
 .table {

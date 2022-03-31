@@ -42,97 +42,196 @@
         </div>
     </div>
     <div class="page-container p-3 bg-white" data-content="info">
-
-        <div class="container mb-3">
-            <div class="row border bd-primary-xxlight-color white rounded-lg mb-3 py-2 gx-3">
-                <div class="col-4">
-                    <button class="btn btn-sm btn-border-secondary-color rounded-lg w-100">執照明細</button>
+      <div class="container mb-3">
+          <div class="row border bd-primary-xxlight-color white rounded-lg py-2 js-accordion-menu">
+              <div class="col-4">
+                  <button class="btn btn-sm btn-border-secondary-color rounded-lg w-100" data-bs-toggle="collapse" data-bs-target="#detail">
+                    執照明細
+                  </button>
+              </div>
+              <div class="col-4">
+                  <button class="btn btn-sm btn-border-primary-color rounded-lg w-100" data-bs-toggle="collapse" data-bs-target="#change">
+                    變更項目
+                  </button>
+              </div>
+              <div class="col-4">
+                  <button class="btn btn-sm btn-border-tertiary-color rounded-lg w-100" data-bs-toggle="collapse" data-bs-target="#work">
+                    施工項目
+                  </button>
+              </div>
+              <div class="col-12">
+                <div class="collapse pt-2" id="detail" data-bs-parent=".page-container">
+                  <div class="container info-box px-0 bd-secondary-color border-top border-2 pt-2">
+                    <div class="row gx-1">
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">執照明細</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">建築概要</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">起造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">設計人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">監造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">承造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">地號</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">樓層概要</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">雜項工程</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">停車空間</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">停車場出入口</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">使用道路</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">備註</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">技師簽證</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">相關執照</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-secondary-color rounded-lg w-100">室內裝修</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-sm btn-border-primary-light-color rounded-lg w-100">變更項目</button>
+                <div class="collapse pt-2" id="change" data-bs-parent=".page-container">
+                  <div class="container info-box px-0 bd-primary-color border-top border-2 pt-2" data-content="change">
+                    <div class="row gx-1">
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-primary-color rounded-lg w-100">執照列管</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-primary-color rounded-lg w-100">執照加註</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-sm btn-border-tertiary-color rounded-lg w-100">施工項目</button>
+                <div class="collapse pt-2" id="work" data-bs-parent=".page-container">
+                  <div class="container info-box px-0 bd-tertiary-color border-top border-2 pt-2" data-content="work">
+                    <div class="row gx-1">
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">變更起造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">變更監造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">變更承造人</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">開工申請</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">開工展期</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">竣工展期</a>
+                      </div>
+                      <div class="col-3 mb-2">
+                        <a href="#" class="btn btn-sm info-btn info-btn-tertiary-color rounded-lg w-100">勘驗紀錄</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                
-            </div>
-        </div>
-        <h2 class="d-flex secondary-color font-sm align-items-end border-2 border-bottom bd-secondary-color pb-2 mb-0">
-            <img src="./assets/images/icon-detail.svg" alt="icon執照明細" class="me-2">執照明細
-        </h2>
-        <table class="table bg-pale-color bd-primary-xlight-color font-sm">
-            <tbody>
-              <tr>
-                <th scope="row">原領執照字號</th>
-                <td><input class="form-control form-control-sm border-0" type="text"></td>
-              </tr>
-              <tr>
-                <th scope="row">建築指示線</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="99定-樹212(日期)0990422"></td>
-              </tr>
-              <tr>
-                <th scope="row">土地使用分區</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0%"></td>
-              </tr>
-              <tr>
-                <th scope="row">法定建蔽率</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0%"></td>
-              </tr>
-              <tr>
-                <th scope="row">法定容積率</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">騎樓地面面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">退縮地面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">其他面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">保留地面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">總計面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">法定空地面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="3㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">雜項工作物</th>
-                <td><input class="form-control form-control-sm border-0" type="text"></td>
-              </tr>
-              <tr>
-                <th scope="row">雜項備註</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="備註備註備註備註備註備註"></td>
-              </tr>
-              <tr>
-                <th scope="row">雜項造價</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="1000000元"></td>
-              </tr>
-              <tr>
-                <th scope="row">容積樓地板面積</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
-              </tr>
-              <tr>
-                <th scope="row">核准日期</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="2020/12/12"></td>
-              </tr>
-              <tr>
-                <th scope="row">發照日期</th>
-                <td><input class="form-control form-control-sm border-0" type="text" value="2021/1/12"></td>
-              </tr>
-            </tbody>
-          </table>
-    </div>
+              </div>
+          </div>
+      </div>
+      <h2 class="d-flex secondary-color font-sm align-items-end border-2 border-bottom bd-secondary-color pb-2 mb-0">
+          <img src="./assets/images/icon-detail.svg" alt="icon執照明細" class="me-2">執照明細
+      </h2>
+      <table class="table bg-pale-color bd-primary-xlight-color font-sm">
+          <tbody>
+            <tr>
+              <th scope="row">原領執照字號</th>
+              <td><input class="form-control form-control-sm border-0" type="text"></td>
+            </tr>
+            <tr>
+              <th scope="row">建築指示線</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="99定-樹212(日期)0990422"></td>
+            </tr>
+            <tr>
+              <th scope="row">土地使用分區</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0%"></td>
+            </tr>
+            <tr>
+              <th scope="row">法定建蔽率</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0%"></td>
+            </tr>
+            <tr>
+              <th scope="row">法定容積率</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">騎樓地面面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">退縮地面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">其他面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">保留地面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="0㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">總計面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">法定空地面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="3㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">雜項工作物</th>
+              <td><input class="form-control form-control-sm border-0" type="text"></td>
+            </tr>
+            <tr>
+              <th scope="row">雜項備註</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="備註備註備註備註備註備註"></td>
+            </tr>
+            <tr>
+              <th scope="row">雜項造價</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="1000000元"></td>
+            </tr>
+            <tr>
+              <th scope="row">容積樓地板面積</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="1447.03㎡"></td>
+            </tr>
+            <tr>
+              <th scope="row">核准日期</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="2020/12/12"></td>
+            </tr>
+            <tr>
+              <th scope="row">發照日期</th>
+              <td><input class="form-control form-control-sm border-0" type="text" value="2021/1/12"></td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
 
 </div>
 	</div>
