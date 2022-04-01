@@ -13887,13 +13887,12 @@ footer {
 
 .info-btn {
   border: 2px solid;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 5px 0;
-  letter-spacing: .5px;
   /*ipnone5*/ }
   @media (max-width: 320px) {
     .info-btn {
-      font-size: 0.7em;
+      font-size: 0.8em;
       letter-spacing: -1px; } }
 
 .info-btn-secondary-color {
@@ -13907,9 +13906,7 @@ footer {
   color: #2882E9 !important;
   background: #EEFCFF;
   border: 2px solid #D1EFFF;
-  font-size: 0.7em;
-  padding: 5px 0;
-  letter-spacing: -1px; }
+  padding: 5px 0; }
   .info-btn-primary-color:focus {
     background: #E1F8FE; }
 
@@ -13917,9 +13914,7 @@ footer {
   color: #F9A71A !important;
   background: #FFF7EE;
   border: 2px solid #FFEBD1;
-  font-size: 0.7em;
-  padding: 5px 0;
-  letter-spacing: -1px; }
+  padding: 5px 0; }
   .info-btn-tertiary-color:focus {
     background: #FFEFDC; }
 
